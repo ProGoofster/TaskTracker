@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TaskTracker</string>
+    <string name="enterLabel">Enter Task</string>
+    <string name="whoLabel">Who did it?</string>
+    <string name="enterEdit">Tell all the puppies you see</string>
+    <string name="whoEdit">Estaban</string>
+    <string name="buttonLabel">Button</string>
 </resources>
