@@ -8,24 +8,21 @@
     <FrameLayout
         android:id="@+id/top_frame"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_marginEnd="411dp"
-        android:layout_weight="1"
-        app:layout_constraintBottom_toBottomOf="@id/bottom_frame"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_frame"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1" />
 
     <FrameLayout
         android:id="@+id/bottom_frame"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_marginEnd="411dp"
-        android:layout_weight="2"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/top_frame" />
+        app:layout_constraintTop_toBottomOf="@id/top_frame"
+        app:layout_constraintVertical_weight="2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
