@@ -13,7 +13,7 @@
         android:theme="@style/Theme.TaskTracker">
         <provider
             android:name=".MyTaskContentProvider"
-            android:authorities="com.example.tasktracker.provider"
+            android:authorities="com.example.tasktrackerdv.provider"
             android:enabled="true"
             android:exported="true"></provider>
 

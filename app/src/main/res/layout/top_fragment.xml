@@ -16,14 +16,14 @@
         app:layout_constraintTop_toTopOf="@+id/enterEdit" />
 
     <TextView
-        android:id="@+id/whoLabel"
+        android:id="@+id/ownerLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/whoLabel"
-        app:layout_constraintBottom_toBottomOf="@+id/whoEdit"
-        app:layout_constraintEnd_toStartOf="@+id/whoEdit"
+        app:layout_constraintBottom_toBottomOf="@+id/ownerEdit"
+        app:layout_constraintEnd_toStartOf="@+id/ownerEdit"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/whoEdit" />
+        app:layout_constraintTop_toTopOf="@+id/ownerEdit" />
 
     <EditText
         android:id="@+id/enterEdit"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/whoEdit"
+        android:id="@+id/ownerEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -52,6 +52,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/buttonLabel"
-        app:layout_constraintStart_toEndOf="@+id/whoEdit"
+        app:layout_constraintStart_toEndOf="@+id/ownerEdit"
         app:layout_constraintTop_toBottomOf="@+id/enterEdit" />
 </androidx.constraintlayout.widget.ConstraintLayout>
